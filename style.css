@@ -1,0 +1,125 @@
+
+/* header */
+.topnav {
+  overflow:visible;
+  background-color: transparent;
+  position: fixed;
+  z-index: 1;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #00bfff;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: transparent;
+  color: #24abff;
+}
+
+body {
+      background-image: url('chkBG.jpeg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      overflow-x: hidden;
+    }
+
+    #main {
+      flex-direction: column;
+    }
+
+    #title {
+      position: relative;
+      flex-direction: column;
+      left: 250px;
+      top: 90px;
+      font-size: 50px;
+      color: white;
+      width: 30vw;
+    }
+
+    #image {
+      max-width: 100%;
+      border-radius: 50%;
+      height: auto;
+      max-height: 200px;
+      position: relative;
+      top: 0px;
+      right: -60px;
+      border: 5px solid #24abff;
+    }
+
+    #logo {
+      max-width: 100%;
+      height: 50px;
+      position: relative;
+      top: -165px;
+      right: -220px;
+    }
+
+    #img-caption {
+      color: white;
+      font-size: 20px;
+      font-family: sans-serif;
+      position: relative;
+      width: 30vw;
+      top: -100px;
+      padding-left: 400px;
+    }
+
+    #tribute-info {
+      background: rgba( 255, 255, 255, 0.05 );
+      box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+      backdrop-filter: blur( 6px );
+      -webkit-backdrop-filter: blur( 6px );
+      border-radius: 10px;
+      border: 1px solid rgba( 255, 255, 255, 0.18 );
+      color: white;
+      position: relative;
+      text-align: center;
+      top: 25rem;
+      padding-left: 100px;
+      text-shadow: 1px 1px black;
+    }
+
+    #about {
+      color: skyblue;
+      text-align: center;
+      position: relative;
+      top: 40rem;
+      width: 80%;
+      padding-left: 8rem;
+    }
+
+    #trivia {
+      color: skyblue;
+      text-align: center;
+      position: relative;
+      top: 700px;
+      padding-bottom: 100px;
+      width: 80%;
+      padding-left: 8rem;
+      
+
+    }
+
+/* footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #24abff;
+  color: white;
+  text-align: center;
+}
